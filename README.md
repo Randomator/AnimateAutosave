@@ -6,7 +6,7 @@ Instead of relying on an _RECOVER file, keep a log of all saves to .fla file.
 
 Works on windows only.
 
-To use this app, you must first need to have a set directory where your .fla script(s) are stored. Even if only one script is open, all scripts in this directory will be backed up. You must also have a set location where you want AUTOSAVE files to be stored.
+To use this app, you must first need to have a set directory where your .fla script(s) are stored. Even if only one script is open, all scripts in this directory will be backed up. You must also have a set location where you want your autosave files to be stored.
 
 ### Prerequisites
 
@@ -39,6 +39,16 @@ Same goes for where you would want to save the autosave files.
 
 Put the path of the save location in savesLocation.path
 
+## About
+
+Every 5 minutes (or set time) this program will copy the files in specified directory and move them to the savesLocation directory. The files will then be named their exact time + origional filename. 
+
+File main.fla will look something like
+```
+2020-05-05_14-06-06.804226main.fla
+```
+
+This program will never delete any autosaves, so you will manualy have to remove old saves that are no longer needed.
 
 ## Changing save time
 
