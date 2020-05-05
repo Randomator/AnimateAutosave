@@ -45,7 +45,7 @@ Every 5 minutes (or set time) this program will copy the files in specified dire
 
 File main.fla will look something like
 ```
-2020-05-05_14-06-06.804226main.fla
+2020-05-05_16-36-34.004598_from_main.fla
 ```
 
 This program will never delete any autosaves, so you will manualy have to remove old saves that are no longer needed.
