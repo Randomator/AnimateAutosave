@@ -38,13 +38,11 @@ while True:
             raise GeneralProgramError("FLA file(s) not found")
             exit()
         else:
-            savePathFilename = savePath.strip('"')
             os.system(f"copy {savePath}*.fla \"{storagePath}\" > foo")
             for file in files:
                 nowtime = str(datetime.now()).replace(" ", "_").replace(":", "-")
-                newFilename = "{time}{name}".format(time=nowtime,name=file)
+                newFilename = "{time}_from_{name}".format(time=nowtime,name=file)
                 del nowtime
-                newFilename = newFilename.strip(" ")
                 os.system(f"ren \"{storagePath}{file}\" {newFilename}")
                 del newFilename
             del files
