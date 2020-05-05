@@ -6,7 +6,7 @@ Instead of relying on an _RECOVER file, keep a log of all saves to .fla file.
 
 Works on windows only.
 
-To use this app, you must first need to have a set directory where you .fla script(s) are stored. Keep in mind, even if only one script is open, all scripts will be backed up. You must also have a set location where you want AUTOSAVE files to be stored.
+To use this app, you must first need to have a set directory where your .fla script(s) are stored. Even if only one script is open, all scripts in this directory will be backed up. You must also have a set location where you want AUTOSAVE files to be stored.
 
 ### Prerequisites
 
