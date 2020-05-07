@@ -1,5 +1,5 @@
 #INSERT PATH OF DIRECTORY YOU WANT TO AUTO SAVE IN autoSave.path. With \ at end. No quotations
-LOOPTIME = 60 #Time of each loop
+LOOPTIME = 300 #Time of each loop
 
 
 import os
